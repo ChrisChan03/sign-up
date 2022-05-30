@@ -1,0 +1,155 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+body {
+	background: #efe;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+}
+
+.signup-form-container {
+	background: #fff;
+	width: 40%;
+	height: auto;
+	margin: 50px auto 60px auto;
+	border-radius: 20px;
+}
+
+form {
+   width: 68%;
+   height: auto;
+   margin: auto;
+   padding: 30px 0px 30px 0px;
+}
+
+.back-btn {
+	color: #000;
+	font-size: 13px;
+	margin-left: 40px;
+}
+
+.back-btn:hover{
+	text-decoration: underline;
+}
+
+h5 {
+	font-size: 18px;
+	padding-bottom:5px;
+}
+
+h3{
+	font-size: 30px;
+	padding-bottom: 8px;
+}
+
+#google, #fb{
+	padding: 17px 5px 17px 27px;
+	width: 181px;
+	border: 1px solid #3c71ff;
+	border-radius: 5px; 
+	background: #fff;
+	cursor: pointer;
+}
+
+#google-img {
+	width: 23px;
+	height: 23px;
+	left: 36.6%;
+	margin-top: -17px;
+	position: absolute;
+	padding: 13px 150px 13px 5px;
+}
+
+#fb-img {
+	width: 23px;
+	height: 23px;
+	left: 50.3%;
+	margin-top: -17px;
+	position: absolute;
+	padding: 13px 150px 13px 5px;
+}
+
+#google:hover, #fb:hover {
+	color: #fff;
+	background: #3c71ff;
+}
+
+.p1 {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 20px 0px 20px 0px;
+}
+
+#fname, #lname {
+	width: 163px;
+	padding: 18px 8px 18px 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: none;
+	background: #e6f2fd	;
+	cursor: pointer;
+}
+
+#email, #pword {
+	width: 95%;
+	margin-top: 10px;
+	padding: 18px 8px 18px 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: none;
+	background: #e6f2fd	;
+	cursor: pointer;
+}
+
+.input-group {
+	padding: 25px 0px 25px 0px;
+}
+
+#checkbox {
+	position: absolute;
+    padding: 
+}
+
+span {
+	text-align: right;
+	font-size: 13px;
+	color: #656565;
+	padding-left: 15px; 
+}
+
+#create-btn {
+	width: 100%;
+	padding: 17px;
+	background: #3c71ff;
+	color: #fff;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#create-btn:hover{
+	box-shadow: 2px 5px 10px 5px #ddd;
+}
+
+.p2 {
+	font-size: 13px;
+	color: #656565;
+	text-align: center;
+	font-weight: bold;
+}
+
+.p2 a {
+	color: #3c71ff;
+}
+
+.p2 a:hover {
+    text-decoration: underline;
+}
